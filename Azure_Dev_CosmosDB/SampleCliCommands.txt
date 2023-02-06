@@ -1,0 +1,4 @@
+﻿Step 1: Launch azure cloud shell or the cli
+Step 2: Run the following command with updated values
+
+ az cosmosdb sql role definition create --account-name YOURACCOUNTNAME --resource-group YOURRESOURCEGROUP --body '{ "RoleName": "PasswordlessReadWrite", "Type": "CustomRole", "AssignableScopes" : ["/"], "Permissions" : [{"DataActions":["Microsoft.DocumentDb/databaseAccounts/readMetadata", "Microsoft.DocumentDb/databaseAccounts/sqlDatabases/containers/items/*","Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/*"]}]}'
