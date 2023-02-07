@@ -11,8 +11,8 @@ namespace Azure_Dev_CosmosDB
 	{
 		string dbName = "stackup";
 		string containerName = "products";
-		string cosmosAccountURI = "<Cosmos DB URL>";
-		string cosmosKey = "<CosmosDB Primary / Secondary Key>";
+		string cosmosAccountURI = "<URL>";
+		string cosmosKey = "<Primary Key>";
 		Database _cosmosDb;
 		Container _container;
 		public CosmosService()
@@ -81,6 +81,12 @@ namespace Azure_Dev_CosmosDB
 				Console.WriteLine($"{item.Name} with category {item.Category} has been created with {response.RequestCharge} request charge");
 			}
 
+		}
+
+		public async Task DeleteItem()
+		{
+			ItemResponse<Product> response = await _container.DeleteItemAsync<Product>(partitionKey: new PartitionKey("smartphone"), id: "00000000-0000-0000-0000-000000000000");
+			Console.WriteLine($"{response.RequestCharge} RU used for deleting");
 		}
 	}
 }

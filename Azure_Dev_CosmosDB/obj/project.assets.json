@@ -6539,24 +6539,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rajat\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\rasrivas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rajat\\source\\repos\\stackup_azure_dev\\Azure_Dev_CosmosDB\\Azure_Dev_CosmosDB.csproj",
+      "projectUniqueName": "C:\\Users\\rasrivas\\Documents\\Personal_POC_Projects_for_Learning\\azure\\stackup_azure_dev\\Azure_Dev_CosmosDB\\Azure_Dev_CosmosDB.csproj",
       "projectName": "Azure_Dev_CosmosDB",
-      "projectPath": "C:\\Users\\rajat\\source\\repos\\stackup_azure_dev\\Azure_Dev_CosmosDB\\Azure_Dev_CosmosDB.csproj",
-      "packagesPath": "C:\\Users\\rajat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rajat\\source\\repos\\stackup_azure_dev\\Azure_Dev_CosmosDB\\obj\\",
+      "projectPath": "C:\\Users\\rasrivas\\Documents\\Personal_POC_Projects_for_Learning\\azure\\stackup_azure_dev\\Azure_Dev_CosmosDB\\Azure_Dev_CosmosDB.csproj",
+      "packagesPath": "C:\\Users\\rasrivas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rasrivas\\Documents\\Personal_POC_Projects_for_Learning\\azure\\stackup_azure_dev\\Azure_Dev_CosmosDB\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rajat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rasrivas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
