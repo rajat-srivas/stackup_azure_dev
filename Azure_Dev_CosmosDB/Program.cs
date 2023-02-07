@@ -17,8 +17,11 @@ namespace Azure_Dev_CosmosDB
 			var products = await _cosmosService.GetProducts();
 
 			products.ForEach(x => Console.WriteLine(x.Name));
+			
+			Console.WriteLine("Deleting one of the item");
+			await _cosmosService.DeleteItem();
 
-			Console.WriteLine("Products fetched with connection string");
+			Console.ReadLine();
 
 		}
 	}
